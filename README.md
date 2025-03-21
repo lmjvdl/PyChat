@@ -45,7 +45,7 @@ This project is designed as part of a computer networks course to demonstrate th
     The server will start listening on 127.0.0.1 and port 7000.
    ```
 
-Running the Client
+### Running the Client
 
     Run the client.py file:
     bash
@@ -55,7 +55,7 @@ Running the Client
 
     Enter your username and start chatting.
 
-Conclusion
+### Conclusion
 
 This project effectively demonstrates how to create a simple group chat system using Python sockets. The optimal buffer size for receiving data was determined to be 1024 bytes, as it provides a good balance between speed and memory usage. Enabling TCP_NODELAY significantly reduced latency for small data transmissions. Finally, using TCP was more suitable for this group chat application due to its reliability.
 

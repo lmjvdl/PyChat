@@ -53,7 +53,7 @@ def start_server():
     
     # Server address and port
     host = '127.0.0.1'
-    port = 12345
+    port = 7000
     
     # Bind the socket to the address and port
     server_socket.bind((host, port))

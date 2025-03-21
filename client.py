@@ -35,7 +35,7 @@ def start_client():
     
     # Server address and port
     host = '127.0.0.1'
-    port = 12345
+    port = 7000
     
     # Connect to the server
     client_socket.connect((host, port))
